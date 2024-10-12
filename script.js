@@ -1,4 +1,8 @@
 let n = prompt("Введіть число");
+if (!isNaN(n)){
+
+}
+else {
 let y = 0;
 let i = 1;
 while (i <= n) {
@@ -6,3 +10,4 @@ while (i <= n) {
   i++;
 }
 alert("Сума ряду:" + y);
+}
